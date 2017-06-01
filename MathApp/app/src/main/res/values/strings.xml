@@ -10,4 +10,9 @@
     <string name="calcDescriptionText">Opis funkcjonalności kalkulatora</string>
     <string name="linearFuncDescriptionText">Opis modułu liczenia funkcji liniowej</string>
     <string name="squareFuncDescriptionText">Opis modułu liczenia funkcji kwadratowej</string>
+
+    <!-- About activity strings -->
+    <string name="aboutContentText">
+        Aplikacja napisane przez Annę Szkup, w ramach zaliczenia przedmiotu...
+    </string>
 </resources>

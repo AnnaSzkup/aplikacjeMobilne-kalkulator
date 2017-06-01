@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MathApp</string>
+
+    <!-- Main activity strings -->
+    <string name="calcButtonLabel">Kalkulator</string>
+    <string name="linearFuncButtonLabel">F. Liniowa</string>
+    <string name="squareFuncButtonLabel">F. Kwadratowa</string>
+    <string name="aboutButtonLabel">O Autorce</string>
+
+    <string name="calcDescriptionText">Opis funkcjonalności kalkulatora</string>
+    <string name="linearFuncDescriptionText">Opis modułu liczenia funkcji liniowej</string>
+    <string name="squareFuncDescriptionText">Opis modułu liczenia funkcji kwadratowej</string>
+</resources>

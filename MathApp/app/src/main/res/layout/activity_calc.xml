@@ -1,9 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="annaszkup.mathapp.Calc">
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <android.support.constraint.ConstraintLayout tools:context="annaszkup.mathapp.Calc" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <GridLayout android:layout_height="wrap_content" android:layout_width="wrap_content" app:layout_constraintVertical_bias="0.039" app:layout_constraintTop_toTopOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintBottom_toBottomOf="parent" android:columnCount="5" android:layout_marginTop="8dp" android:layout_marginRight="8dp" android:layout_marginLeft="8dp" android:layout_marginBottom="8dp">
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:layout_gravity="center" android:textColor="@color/calcElementText" android:background="@color/calcElementBackground" android:layout_columnSpan="5" tools:layout_margin="10dp" android:text="0" android:inputType="textPersonName" android:ems="15" android:layout_row="0" android:layout_column="0" android:id="@+id/calcOutputField"/>
+
+    <Space android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_row="0" android:minHeight="10dp"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="+" android:layout_row="2" android:layout_column="0" android:id="@+id/addCalcButton"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="-" android:layout_row="2" android:layout_column="1" android:id="@+id/substractCalcButton"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="*" android:layout_row="2" android:layout_column="2" android:id="@+id/multiplyCalcButton"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="/" android:layout_row="2" android:layout_column="3" android:id="@+id/divideCalcButton"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="7" android:layout_row="3" android:layout_column="0" android:id="@+id/sevenCalcButton"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="8" android:layout_row="3" android:layout_column="1" android:id="@+id/eightCalcButton"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="9" android:layout_row="3" android:layout_column="2" android:id="@+id/nineCalcButton"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="4" android:layout_row="4" android:layout_column="0" android:id="@+id/fourCalcButton"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="5" android:layout_row="4" android:layout_column="1" android:id="@+id/fiveCalcButton"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="6" android:layout_row="4" android:layout_column="2" android:id="@+id/sixCalcButton"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="1" android:layout_row="5" android:layout_column="0" android:id="@+id/oneCalcButton"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="2" android:layout_row="5" android:layout_column="1" android:id="@+id/twoCalcButton"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="3" android:layout_row="5" android:layout_column="2" android:id="@+id/threeCalcButton"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="0" android:layout_row="6" android:layout_column="1" android:id="@+id/zeroCalcButton"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="=" android:layout_row="3" android:layout_column="3" android:id="@+id/resultCalcButton"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="C" android:layout_row="4" android:layout_column="3" android:id="@+id/clearCalcButton"/>
+
+</GridLayout>
 
 </android.support.constraint.ConstraintLayout>

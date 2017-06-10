@@ -7,12 +7,25 @@
     <string name="squareFuncButtonLabel">F. Kwadratowa</string>
     <string name="aboutButtonLabel">O Autorce</string>
 
-    <string name="calcDescriptionText">Opis funkcjonalności kalkulatora</string>
-    <string name="linearFuncDescriptionText">Opis modułu liczenia funkcji liniowej</string>
-    <string name="squareFuncDescriptionText">Opis modułu liczenia funkcji kwadratowej</string>
+    <string name="calcDescriptionText">Nalezy za pomoca klawiatury kalkulatora wybrac liczby i dzialanie, a nastepnie nacisnac znak =</string>
+    <string name="linearFuncDescriptionText">Nalezy podac parametry funkcji liniowej danej wzorem y=ax+b. Funkcja oblicza miejsce zerowe</string>
+    <string name="squareFuncDescriptionText">Nalezy podac parametry funkcji kwadratowej danej wzorem y=ax²+bx+c. Funkcja oblicza miejsca zerowe i delte</string>
 
     <!-- About activity strings -->
     <string name="aboutContentText">
-        Aplikacja napisane przez Annę Szkup, w ramach zaliczenia przedmiotu...
+        Aplikacja napisana przez Annę Szkup, w ramach zaliczenia przedmiotu Aplikacje mobilne
     </string>
+
+    <!--Linear function strings-->
+    <string name="linearFirstParameterLabel">Podaj parametr "a"</string>
+    <string name="linearSecondParameterLabel">Podaj parametr "b"</string>
+    <string name="linearFunctionButton">Oblicz</string>
+    <string name="linearFunctionResult">WYNIK</string>
+    <string name="linearFunctionResultPrefix">Miejsce zerowe wynosi: </string>
+    <!--Linear function strings-->
+    <string name="squareFirstParameterLabel">Podaj parametr "a"</string>
+    <string name="squareSecondParameterLabel">Podaj parametr "b"</string>
+    <string name="squareThirdParameterLabel">Podaj parametr "c"</string>
+    <string name="squareFunctionButton">Oblicz</string>
+    <string name="squareFunctionResult">WYNIK</string>
 </resources>

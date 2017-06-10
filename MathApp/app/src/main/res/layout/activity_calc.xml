@@ -39,8 +39,12 @@
 
     <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="=" android:layout_row="3" android:layout_column="3" android:id="@+id/resultCalcButton"/>
 
-    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="C" android:layout_row="4" android:layout_column="3" android:id="@+id/clearCalcButton"/>
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="√" android:layout_row="5" android:layout_column="3" android:id="@+id/rootCalcButton"/>
 
-</GridLayout>
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="^" android:layout_row="4" android:layout_column="3" android:id="@+id/squareCalcButton"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="C" android:layout_row="6" android:layout_column="3" android:id="@+id/clearCalcButton"/>
+
+    </GridLayout>
 
 </android.support.constraint.ConstraintLayout>

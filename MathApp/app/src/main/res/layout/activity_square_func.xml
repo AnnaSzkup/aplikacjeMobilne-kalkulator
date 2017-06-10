@@ -30,7 +30,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="0" />
+            android:text="" />
 
         <TextView
             android:id="@+id/squareSecondParameter"
@@ -44,7 +44,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="0" />
+            android:text="" />
         <TextView
             android:id="@+id/squareThirdParameter"
             android:layout_width="match_parent"
@@ -57,7 +57,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="0" />
+            android:text="" />
 
         <Button
             android:id="@+id/squareFunctionButton"

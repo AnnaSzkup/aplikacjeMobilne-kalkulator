@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="0" />
+            android:text="" />
 
         <TextView
             android:id="@+id/linearSecondParameter"
@@ -45,7 +45,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="0" />
+            android:text="" />
 
         <Button
             android:id="@+id/linearFunctionButton"

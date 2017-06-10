@@ -13,7 +13,7 @@
 
     <!-- About activity strings -->
     <string name="aboutContentText">
-        Aplikacja napisana przez Annę Szkup, w ramach zaliczenia przedmiotu Aplikacje mobilne
+        Aplikacja napisana przez Annę Szkup w ramach zaliczenia przedmiotu Aplikacje mobilne
     </string>
 
     <!--Linear function strings-->
@@ -22,10 +22,11 @@
     <string name="linearFunctionButton">Oblicz</string>
     <string name="linearFunctionResult">WYNIK</string>
     <string name="linearFunctionResultPrefix">Miejsce zerowe wynosi: </string>
-    <!--Linear function strings-->
+    <!--Square function strings-->
     <string name="squareFirstParameterLabel">Podaj parametr "a"</string>
     <string name="squareSecondParameterLabel">Podaj parametr "b"</string>
     <string name="squareThirdParameterLabel">Podaj parametr "c"</string>
     <string name="squareFunctionButton">Oblicz</string>
     <string name="squareFunctionResult">WYNIK</string>
+    <string name="squareFunctionResultPrefix">Delta i miejsca zerowe wynosza: </string>
 </resources>
